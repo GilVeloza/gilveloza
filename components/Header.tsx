@@ -11,9 +11,9 @@ export default function Header() {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const languages = [
-    { code: 'en' as const, name: 'English', flag: '🇺🇸' },
+    { code: 'en' as const, name: 'English', flag: '�🇧' },
     { code: 'es' as const, name: 'Español', flag: '🇪🇸' },
-    { code: 'pt' as const, name: 'Português', flag: '🇧🇷' },
+    { code: 'pt' as const, name: 'Português', flag: '🇵🇹' },
   ];
 
   const currentLang = languages.find((l) => l.code === language);
