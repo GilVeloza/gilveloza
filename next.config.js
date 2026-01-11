@@ -3,6 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   distDir: 'docs',
+  basePath: '',
+  assetPrefix: '',
   images: {
     unoptimized: true,
   },
