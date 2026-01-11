@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description: 'Startup founder and indie maker building apps and digital products that help people grow.',
   keywords: ['startup', 'founder', 'indie maker', 'apps', 'digital products', 'Moora'],
   authors: [{ name: 'Gil Veloza' }],
+  icons: {
+    icon: '/favicon.ico',
+  },
   openGraph: {
     title: 'Gil Veloza - Founder & Digital Product Builder',
     description: 'Building startups, apps, and digital products that make a difference.',
