@@ -34,7 +34,7 @@ export default function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800"
+      className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-gray-800"
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <motion.div
@@ -61,7 +61,7 @@ export default function Header() {
               <motion.div
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 overflow-hidden"
+                className="absolute right-0 mt-2 w-48 bg-black rounded-lg shadow-xl border border-gray-700 overflow-hidden"
               >
                 {languages.map((lang) => (
                   <button
@@ -70,8 +70,8 @@ export default function Header() {
                       setLanguage(lang.code);
                       setIsLangOpen(false);
                     }}
-                    className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
-                      language === lang.code ? 'bg-blue-50 dark:bg-blue-900/20' : ''
+                    className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-800 transition-colors ${
+                      language === lang.code ? 'bg-gray-800' : ''
                     }`}
                   >
                     <span className="text-2xl">{lang.flag}</span>

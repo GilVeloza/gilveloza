@@ -22,7 +22,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-8"
         >
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-2xl ring-4 ring-blue-500/20">
+          <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-2xl ring-4 ring-white">
             <Image 
               src="/profile.jpg" 
               alt="Gil Veloza" 
