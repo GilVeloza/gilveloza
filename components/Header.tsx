@@ -49,7 +49,7 @@ export default function Header() {
           <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setIsLangOpen(!isLangOpen)}
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-black border border-gray-700 hover:bg-gray-900 transition-colors"
               aria-label="Select language"
             >
               <Globe size={20} />

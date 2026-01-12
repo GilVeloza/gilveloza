@@ -59,7 +59,7 @@ export default function Contact() {
               initial={{ opacity: 0, scale: 0 }}
               animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0 }}
               transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
-              className={`p-4 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 ${social.color} transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl`}
+              className={`p-4 rounded-full bg-black border border-gray-700 text-gray-300 ${social.color} transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl`}
               aria-label={social.name}
             >
               <social.icon size={28} />
