@@ -22,15 +22,17 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-8"
         >
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-2xl ring-4 ring-white">
-            <Image 
-              src="/profile.jpg" 
-              alt="Gil Veloza" 
-              width={128} 
-              height={128}
-              className="object-cover w-full h-full"
-              style={{ objectPosition: 'center center' }}
-            />
+          <div className="w-32 h-32 mx-auto mb-6 rounded-full p-1 bg-gradient-to-r from-blue-600 to-purple-600 shadow-2xl">
+            <div className="w-full h-full rounded-full overflow-hidden bg-black">
+              <Image 
+                src="/profile.jpg" 
+                alt="Gil Veloza" 
+                width={128} 
+                height={128}
+                className="object-cover w-full h-full"
+                style={{ objectPosition: 'center center' }}
+              />
+            </div>
           </div>
         </motion.div>
 
