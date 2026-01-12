@@ -35,7 +35,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
+      <body className="antialiased bg-black text-white transition-colors duration-300">
         <ThemeProvider>
           <LanguageProvider>
             <Header />

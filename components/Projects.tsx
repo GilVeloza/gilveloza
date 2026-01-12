@@ -13,7 +13,7 @@ export default function Projects() {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   return (
-    <section id="projects" className="py-20 px-6 bg-gray-50 dark:bg-gray-800/50" ref={ref}>
+    <section id="projects" className="py-20 px-6 bg-black" ref={ref}>
       <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
@@ -31,7 +31,7 @@ export default function Projects() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mb-12"
         >
-          <div className="relative overflow-hidden rounded-2xl bg-black p-8 md:p-12 shadow-2xl">
+          <div className="relative overflow-hidden rounded-2xl bg-black p-8 md:p-12 shadow-2xl border-2 border-white">
             <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center gap-2">
               <Sparkles size={16} />
               {t.projects.featured}
@@ -125,7 +125,7 @@ export default function Projects() {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative overflow-hidden rounded-xl bg-black p-8 shadow-lg border-2 border-gray-800"
+            className="relative overflow-hidden rounded-xl bg-black p-8 shadow-lg border-2 border-white"
           >
             <div className="absolute top-4 right-4 bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
               {t.projects.comingSoon}
@@ -158,7 +158,7 @@ export default function Projects() {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="relative overflow-hidden rounded-xl bg-black p-8 shadow-lg border-2 border-gray-800"
+            className="relative overflow-hidden rounded-xl bg-black p-8 shadow-lg border-2 border-white"
           >
             <div className="absolute top-4 right-4 bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
               {t.projects.comingSoon}
